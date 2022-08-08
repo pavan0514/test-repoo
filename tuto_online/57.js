@@ -10,10 +10,10 @@
 
 
 const users = [
-   {firstName:"pavan",age:26},
-   {firstName:"Balaji",age:52},
+   { firstName: "pavan", age: 26 },
+   { firstName: "Balaji", age: 52 },
 ]
- const usernames= users.map((user)=>{
+const usernames = users.map((user) => {
    return user.firstName
 })
 console.log(usernames)

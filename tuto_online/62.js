@@ -16,8 +16,8 @@ const userCart = [
     { productId: 3, productName: "tv", price: 15000 }
 
 ]
-    function less(cartItem){
+function less(cartItem) {
     return cartItem.price < 30000
 }
-const ans = userCart.every(less) 
+const ans = userCart.every(less)
 console.log(ans)

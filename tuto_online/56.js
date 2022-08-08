@@ -13,16 +13,16 @@ const numbers = [4, 2, 5, 8]
 // })
 
 const users = [
-    {firstName:"pavan",age:26},
-    {firstName:"Balaji",age:52},
+    { firstName: "pavan", age: 26 },
+    { firstName: "Balaji", age: 52 },
 ]
-users.forEach(function (user){
-    console.log(user.firstName,":",user.age )
+users.forEach(function (user) {
+    console.log(user.firstName, ":", user.age)
     // console.log(user.age)
 
 })
 // using array
-users.forEach((user)=>{
+users.forEach((user) => {
     console.log(user.age)
 })
 

@@ -19,7 +19,7 @@ const users = [
     { userId: 3, userName: "soham" },
     { userId: 4, userName: "nitish" }
 ]
-const myuser = users.find((user) =>{
-     return user.userId === 4
+const myuser = users.find((user) => {
+    return user.userId === 4
 })
 console.log(myuser)
