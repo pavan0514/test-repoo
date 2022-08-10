@@ -22,3 +22,4 @@ const myArray =[1,2,3,5,2,1,42,2,9,5]
 const uniqueElement = new Set(myArray)
 // console.log(uniqueElement)
 // console.log(myArray)
+                                                                                 
